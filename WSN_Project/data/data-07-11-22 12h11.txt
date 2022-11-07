@@ -1,0 +1,9 @@
+------------------------------------------------------------ 
+ Temperature 
+ 	 Min  Inf 
+ 	 Max  -Inf 
+ 	 Mean 0,00 
+ Voltage 
+ 	 Min  Inf 
+ 	 Max  -Inf 
+ 	 Mean 0,00
