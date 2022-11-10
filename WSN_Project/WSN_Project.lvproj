@@ -1,31 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
-	<Property Name="varPersistentID:{07674485-A6F4-49EA-95BD-30AF82A3E4F4}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Thermometer/DIO3</Property>
-	<Property Name="varPersistentID:{0AF96980-88E9-4694-B200-430246E8951A}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Potentiometer/DIO3</Property>
-	<Property Name="varPersistentID:{289C5E5C-AA6E-45FD-B1E1-BDEC05048F84}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Potentiometer/AI2</Property>
-	<Property Name="varPersistentID:{2C128EAB-562C-46C3-B7D6-0EAC33EA7B96}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Potentiometer/External Power</Property>
-	<Property Name="varPersistentID:{39FDB6EF-F94A-4706-9C72-85F5B6878B17}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Thermometer/TC1</Property>
-	<Property Name="varPersistentID:{3C425C83-7D6A-4023-B949-7608017B7027}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Potentiometer/AI1</Property>
-	<Property Name="varPersistentID:{3F833D2A-6A9B-4EE8-B858-4F4126CB4121}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Thermometer/DIO2</Property>
-	<Property Name="varPersistentID:{4D483AB0-8391-4AB2-88DF-E0EDB03349D4}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Thermometer/Mesh Router</Property>
-	<Property Name="varPersistentID:{57F56475-05B6-4647-A005-6FBEC0368B91}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Thermometer/Link Quality</Property>
-	<Property Name="varPersistentID:{59813BEB-4175-4B0E-9049-1A05F8991EAD}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Thermometer/Battery Voltage</Property>
-	<Property Name="varPersistentID:{61859781-7C21-4CE7-B385-6073C0A966DE}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Thermometer/TC2</Property>
-	<Property Name="varPersistentID:{637D6ED5-CC2A-4140-AF19-7E96452D4797}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Thermometer/TC0</Property>
-	<Property Name="varPersistentID:{63CFD4A8-24DD-4257-B897-87AA9AC9260B}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Potentiometer/AI3</Property>
-	<Property Name="varPersistentID:{6DB3F0D3-0D4A-482B-9649-BD6D85E70604}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Thermometer/External Power</Property>
-	<Property Name="varPersistentID:{8E7578D0-B96B-4948-A166-0E177F0418EB}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Thermometer/DIO1</Property>
-	<Property Name="varPersistentID:{A835470D-3E86-48D8-872B-572054F73461}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Potentiometer/DIO0</Property>
-	<Property Name="varPersistentID:{BB67329D-089F-41B9-8F06-2DD8568849BC}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Thermometer/VI Deployed</Property>
-	<Property Name="varPersistentID:{C1D863A1-900F-4D71-AFBB-292AC88ACC68}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Potentiometer/Link Quality</Property>
-	<Property Name="varPersistentID:{C6E401B1-3908-43BF-A4A6-B84D3A777B59}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Potentiometer/DIO1</Property>
-	<Property Name="varPersistentID:{CBB3D13E-EF39-4F89-A001-924EEBC19C97}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Potentiometer/VI Deployed</Property>
-	<Property Name="varPersistentID:{CD6B5809-FFC7-4B99-841E-E59CFC8F9B3F}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Thermometer/TC3</Property>
-	<Property Name="varPersistentID:{D083BA01-4529-468D-9F51-AC37B08D713B}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Thermometer/DIO0</Property>
-	<Property Name="varPersistentID:{DF7956CE-973C-4816-A7D8-0EF68A00EDFD}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Potentiometer/AI0</Property>
-	<Property Name="varPersistentID:{E19C10D9-19A8-40FE-9E60-2208597BC0C7}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Potentiometer/DIO2</Property>
-	<Property Name="varPersistentID:{E52B3299-0240-4590-A6DA-DA7D4EB4528D}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Potentiometer/Mesh Router</Property>
-	<Property Name="varPersistentID:{F6ECAE71-6982-4385-8914-1EA2791D2E45}" Type="Ref">/NI WSN-9791/Wireless Sensor Network/Potentiometer/Battery Voltage</Property>
+<Project Type="Project" LVVersion="22308000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -76,9 +50,11 @@
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Control 9.ctl" Type="VI" URL="../Control 9.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
